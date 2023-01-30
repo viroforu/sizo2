@@ -1,7 +1,7 @@
 AFRAME.registerComponent('videohandler', {
     init:function() {
        let playing = false;
-       let video = document.querySelector("#sizoVideo");
+       let video = document.querySelector("#sizovideo");
        this.el.addEventListener('click', () => {
             if(!playing) {
                 video.play();
